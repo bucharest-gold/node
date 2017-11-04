@@ -1,0 +1,5 @@
+language: cpp
+script:
+  ./configure --without-ssl && make -j8 test
+notifications:
+  irc: chat.freenode.net#bucharest-gold
