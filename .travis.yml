@@ -1,5 +1,5 @@
 language: cpp
 script:
-  ./configure --without-ssl && make -j8 test
+  ./configure --without-ssl && make -j8 test-only
 notifications:
   irc: chat.freenode.net#bucharest-gold
